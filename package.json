@@ -1,0 +1,20 @@
+{
+  "name": "my-express-app",
+  "version": "1.0.0",
+  "description": "My Express App",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "otplib": "^11.0.1",
+    "qrcode": "^1.5.4"
+  }
+}
